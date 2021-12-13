@@ -3,3 +3,70 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.container{
+    margin: 0 auto;
+    max-width: 1240px;
+}
+
+.header__info{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+}
+
+.header__info div{
+    border-right: 1px solid #E2E2E2;
+    padding-right: 25px;
+}
+
+.language{
+    line-height: 21px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.language li:last-child{
+    margin-top: 5px;
+    background: #4AD295;
+    border-radius: 2px;
+    color: #fff;
+    padding: 0 6px;
+}
+
+.course{
+    font-size: 15px;
+    line-height: 19px;
+    color: #393939;
+}
+
+.course li:last-child{
+    margin-top: 4px;
+}
+
+.social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 110px;
+}
+
+.social a{
+    display: block;
+}
+
+
+.phone{
+    display: flex;
+
+}
+
+.phone li{
+    margin-right: 15px;
+}
