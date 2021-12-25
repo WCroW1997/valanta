@@ -81,7 +81,7 @@ ul{
 }
 
 
-input{
+.input{
     background: #EFF3F6;
     border-radius: 2px;
     border: none;
@@ -122,6 +122,8 @@ input{
     justify-content: space-evenly;
     margin: 0 auto;
     margin-top: 30px;
+    border-bottom: 1px solid #D0D0D0;
+    padding-bottom: 20px;
 }
 
 .header__nav .nav__list{
